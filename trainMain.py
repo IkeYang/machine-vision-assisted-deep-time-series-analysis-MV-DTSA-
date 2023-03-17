@@ -121,8 +121,10 @@ def train(h,lookBackWindow,T,bs,data_path,MS,modelName,epochs,Norm_Insequence=Tr
 
         model.eval()
         args.flag = 'val'
+        print('Validation......')
         test(args, model=model, epoch=epoch)
         args.flag = 'test'
+        print('Testing......')
         test(args, model=model, epoch=epoch)
 
 

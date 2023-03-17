@@ -29,7 +29,7 @@ modelSizeDict={
             'national_illness.csv':4,
         }
 
-def train(h,lookBackWindow,T,bs,data_path,MS,modelName,epochs,Norm_Insequence=True,modelAda=False
+def train(h,lookBackWindow,T,bs,data_path,MS,modelName,epochs,Norm_Insequence=True,modelAda=True
         ,dropout=0.1,TAP=3,TA=0.9,features='M',opt='Adam',num_workers=4,lr=2e-4,
           dNorm=1,weight_decay=0
          ):

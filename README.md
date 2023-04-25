@@ -1,5 +1,5 @@
 # machine-vision-assisted-deep-time-series-analysis-MV-DTSA-
-The code of paper [Your time series is worth a binary image: machine vision assisted deep framework for time series forecasting](https://arxiv.org/pdf/2302.14390v1.pdf)
+The code of paper [Vision Intelligence Generated Time Series Forecasting/Your time series is worth a binary image: machine vision assisted deep framework for time series forecasting]
 ---
 ## How to get started?
 

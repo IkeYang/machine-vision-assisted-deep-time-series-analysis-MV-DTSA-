@@ -1,4 +1,3 @@
-#Author:ike yang
 from einops import rearrange
 import torch.nn as nn
 from  model.deeplabv3_plus import DeepLab
